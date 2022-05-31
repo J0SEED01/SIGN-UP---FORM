@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="main">
+        <article class="main__data">
+            <h1 class="data__title">Learn to code by watching others</h1>
+            <p class="data__paragraph">See how experienced developers solve problem is real-time, Watching scripted tutorials is greatm but understanding how developers think is invaluable.</p>
+        </article>
+        <article class="main__offer">
+            <h4 class="offer__title"><span>Try it free 7 days</span> then $20/mo. thereafter</h4>
+            <form class="offer__form">
+                <img src="images/icon-error.svg" alt="icon-error" class="form__error">
+                <input type="text" name="name" id="name" placeholder="Jonathan " class="form__input">
+                <span class="form__span">First name be cannot be empty</span>
+                <img src="images/icon-error.svg" alt="icon-error" class="form__error">
+                <input type="text" name="lastname" id="lastname" placeholder="Last name" class="form__input">
+                <span class="form__span">Last name be cannot be empty</span>
+                <img src="images/icon-error.svg" alt="icon-error" class="form__error">
+                <input type="email" name="email" id="email" placeholder="Email Address" class="form__input">
+                <span class="form__span">Looks like this is not an email</span>
+                <img src="images/icon-error.svg" alt="icon-error" class="form__error">
+                <input type="password" name="password" id="password" placeholder="Password" class="form__input">   
+                <span class="form__span">Password cannot be empty</span>
+                <input value="claim your free trial" type="submit" aria-label="Submit button" name="submit" id="submit" class="form__submit">
+                <p class="form__paragraph">By clicking the button, you are agreegin to our <span>Terms an Services</span></p>
+            </form>
+        </article>
+    </main>
+
+    <div class="form__sending">
+        <h2 class="sending__title">Sending form .... </h2>
+        <img src="images/circle.svg" alt="images-circle">
+    </div>
+
+    <div class="sending__excelent">
+        <h2 class="excelent__title">Form submitted successfully... !</h2>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
